@@ -1,0 +1,15 @@
+[user]
+	name = Owen McCormick
+	email = 41201059+owen-mccormick@users.noreply.github.com
+	signingkey = ~/.ssh/id_ed25519.pub
+[gpg]
+	format = ssh
+[commit]
+	gpgsign = true
+[init]
+	defaultbranch = main
+[credential]
+	helper = cache
+[core]
+	autocrlf = input
+	editor = vim
