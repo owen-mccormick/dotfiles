@@ -10,6 +10,9 @@ if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]
 then
     PATH="$HOME/.local/bin:$HOME/bin:$PATH"
 fi
+
+PATH="$HOME/apache-maven-3.9.1/bin:$PATH"
+
 export PATH
 
 # Uncomment the following line if you don't like systemctl's auto-paging feature:
@@ -30,3 +33,6 @@ unset rc
 eval "$(starship init bash)"
 
 source ~/.local/share/blesh/ble.sh
+
+# Raspberry Pi Pico Development
+export PICO_SDK_PATH=/home/omccormick/dev/pico-sdk

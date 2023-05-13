@@ -1,5 +1,5 @@
 ### owen-mccormick/dotfiles
 
-- Dotfiles I'm using to set up the development environment on my new computer.
+- My dotfiles, currently including configurations for Alacritty, Bash, Git, i3, and Starship.
 
-- [GNU Stow](https://www.gnu.org/software/stow/) is used to manage symlinks.
+- [GNU Stow](https://www.gnu.org/software/stow/) is used to manage symlinks. Use `stow --target=$HOME <package>` to copy configs.
